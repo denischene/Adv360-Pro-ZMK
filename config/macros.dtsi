@@ -1,3 +1,15 @@
+macro_switchwin2: macro_switchwin2{
+compatible = "zmk,behavior-macro";
+label = "macro_switchwin2";
+#binding-cells = <0>;
+bindings = <&kp C_AL_PREV_TASK>;
+};
+macro_switchwin: macro_switchwin{
+compatible = "zmk,behavior-macro";
+label = "macro_switchwin";
+#binding-cells = <0>;
+bindings = <&kp C_AL_NEXT_TASK>;
+};
 macro_kee: macro_kee{
 compatible = "zmk,behavior-macro";
 label = "macro_kee";
@@ -8,7 +20,7 @@ macro_multiclipboard: macro_multiclipboard{
 compatible = "zmk,behavior-macro";
 label = "macro_multiclipboard";
 #binding-cells = <0>;
-bindings = <&kp RG(V)>;
+bindings = <&kp RG(U)>;
 };
 macro_pastelement: macro_pastelement{
 compatible = "zmk,behavior-macro";
@@ -32,7 +44,7 @@ macro_search: macro_search{
 compatible = "zmk,behavior-macro";
 label = "macro_search";
 #binding-cells = <0>;
-bindings = <&kp LC(F)>;
+bindings = <&kp LC(FSLH)>;
 };
 macro_upfinsemaine: macro_upfinsemaine{
 compatible = "zmk,behavior-macro";
@@ -56,25 +68,25 @@ macro_denis: macro_denis{
 compatible = "zmk,behavior-macro";
 label = "macro_denis";
 #binding-cells = <0>;
-bindings = <&kp D>, <&kp E>, <&kp N>, <&kp I>, <&kp S>, <&kp DOT>, <&kp C>, <&kp H>, <&kp E>, <&kp N>, <&kp E>, <&kp AT_SIGN>;
+bindings = <&kp D>, <&kp E>, <&kp N>, <&kp I>, <&kp S>, <&kp DOT>, <&kp C>, <&kp H>, <&kp E>, <&kp N>, <&kp E>, <&kp AT_SIGN>, <&kp R>, <&kp L>, <&kp Q>, <&kp SEMI>, <&kp DOT>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp SQT>;
 };
 macro_quotesfr: macro_quotesfr{
 compatible = "zmk,behavior-macro";
 label = "macro_quotesfr";
 #binding-cells = <0>;
-bindings = <&kp N2>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp N3>, <&kp SPACE>;
+bindings = <&kp N2>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp N3>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_cutparagraph: macro_cutparagraph{
 compatible = "zmk,behavior-macro";
 label = "macro_cutparagraph";
 #binding-cells = <0>;
-bindings = <&kp LC(RSHIFT)>, <&kp DOWN_ARROW>, <&kp LC(U)>;
+bindings = <&kp LC(RS(DOWN))>, <&kp LC(C)>;
 };
 macro_cutword: macro_cutword{
 compatible = "zmk,behavior-macro";
 label = "macro_cutword";
 #binding-cells = <0>;
-bindings = <&kp LC(RSHFT)>, <&kp RIGHT_ARROW>, <&kp LC(C)>;
+bindings = <&kp LC(RS(RIGHT))>, <&kp LC(C)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
@@ -86,7 +98,7 @@ macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp SPACE>, <&kp LEFT>;
+bindings = <&kp DQT>, <&kp DQT>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
