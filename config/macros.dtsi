@@ -1,3 +1,9 @@
+macro_kee: macro_kee{
+compatible = "zmk,behavior-macro";
+label = "macro_kee";
+#binding-cells = <0>;
+bindings = <&kp H>, <&kp I>, <&kp Q>, <&kp N0>, <&kp LS(N9)>, <&kp LS(N9)>, <&kp LS(N6)>, <&kp LS(N3)>, <&kp Y>, <&kp SPACE>, <&kp Y>, <&kp SPACE>, <&kp LS(N3)>, <&kp LS(N3)>, <&kp SQT>, <&kp R>, <&kp SEMI>, <&kp LS(N3)>;
+};
 macro_multiclipboard: macro_multiclipboard{
 compatible = "zmk,behavior-macro";
 label = "macro_multiclipboard";
