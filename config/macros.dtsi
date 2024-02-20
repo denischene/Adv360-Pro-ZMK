@@ -74,7 +74,7 @@ macro_denis: macro_denis{
 compatible = "zmk,behavior-macro";
 label = "macro_denis";
 #binding-cells = <0>;
-bindings = <&kp I>, <&kp F>, <&kp SEMI>, <&kp D>, <&kp K>, <&kp V>, <&kp H>, <&kp DOT>, <&kp F>, <&kp SEMI>, <&kp F>, <&kp N6>, <&kp R>, <&kp L>, <&kp A>, <&kp SEMI>, <&kp COMMA>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp LC(LA(LS(MINUS)))>;
+bindings = <&kp I>, <&kp F>, <&kp SEMI>, <&kp D>, <&kp K>, <&kp V>, <&kp H>, <&kp DOT>, <&kp F>, <&kp SEMI>, <&kp F>, <&kp N6>, <&kp R>, <&kp L>, <&kp A>, <&kp SEMI>, <&kp COMMA>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp LC(LA(LS(C)))>;
 };
 macro_quotesfr: macro_quotesfr{
 compatible = "zmk,behavior-macro";
