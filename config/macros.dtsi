@@ -1,3 +1,9 @@
+macro_pass: macro_pass{
+compatible = "zmk,behavior-macro";
+label = "macro_pass";
+#binding-cells = <0>;
+bindings = <&kp SEMI>, <&kp L>, <&kp K>, <&kp J>, <&kp COLON>, <&kp LS(L)>, <&kp LS(K)>, <&kp LS(J)>, <&kp SEMI>, <&kp COLON>, <&kp N0>, <&kp LS(N0)>;
+};
 macro_switchwin2: macro_switchwin2{
 compatible = "zmk,behavior-macro";
 label = "macro_switchwin2";
