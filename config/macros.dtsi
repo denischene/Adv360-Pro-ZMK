@@ -68,7 +68,7 @@ macro_denis: macro_denis{
 compatible = "zmk,behavior-macro";
 label = "macro_denis";
 #binding-cells = <0>;
-bindings = <&kp D>, <&kp E>, <&kp N>, <&kp I>, <&kp S>, <&kp DOT>, <&kp C>, <&kp H>, <&kp E>, <&kp N>, <&kp E>, <&kp AT_SIGN>, <&kp R>, <&kp L>, <&kp Q>, <&kp SEMI>, <&kp DOT>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp SQT>;
+bindings = <&kp I>, <&kp F>, <&kp SEMI>, <&kp D>, <&kp K>, <&kp V>, <&kp H>, <&kp DOT>, <&kp F>, <&kp SEMI>, <&kp F>, <&kp N6>, <&kp R>, <&kp L>, <&kp A>, <&kp SEMI>, <&kp COMMA>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp N>;
 };
 macro_quotesfr: macro_quotesfr{
 compatible = "zmk,behavior-macro";
@@ -98,25 +98,25 @@ macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
+bindings = <&kp N1>, <&kp N1>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
 label = "macro_braces";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp RBRC>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>;
+bindings = <&kp LBRC>, <&kp RBRC>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>;
 };
 macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
 label = "macro_parens";
 #binding-cells = <0>;
-bindings = <&kp NUMBER_4>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp NUMBER_5>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
+bindings = <&kp NUMBER_4>, <&kp NUMBER_5>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp RBKT>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
+bindings = <&kp LBKT>, <&kp RBKT>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
