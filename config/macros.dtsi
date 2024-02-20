@@ -1,3 +1,27 @@
+macro_denis: macro_denis{
+compatible = "zmk,behavior-macro";
+label = "macro_denis";
+#binding-cells = <0>;
+bindings = <&kp D>, <&kp E>, <&kp N>, <&kp I>, <&kp S>, <&kp DOT>, <&kp C>, <&kp H>, <&kp E>, <&kp N>, <&kp E>, <&kp AT_SIGN>;
+};
+macro_quotesfr: macro_quotesfr{
+compatible = "zmk,behavior-macro";
+label = "macro_quotesfr";
+#binding-cells = <0>;
+bindings = <&kp N2>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp N3>, <&kp SPACE>;
+};
+macro_cutparagraph: macro_cutparagraph{
+compatible = "zmk,behavior-macro";
+label = "macro_cutparagraph";
+#binding-cells = <0>;
+bindings = <&kp LC(RSHIFT)>, <&kp DOWN_ARROW>, <&kp LC(U)>;
+};
+macro_cutword: macro_cutword{
+compatible = "zmk,behavior-macro";
+label = "macro_cutword";
+#binding-cells = <0>;
+bindings = <&kp LC(RSHFT)>, <&kp RIGHT_ARROW>, <&kp LC(C)>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
@@ -8,25 +32,25 @@ macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+bindings = <&kp DQT>, <&kp DQT>, <&kp SPACE>, <&kp LEFT>;
 };
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
 label = "macro_braces";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+bindings = <&kp LBRC>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp RBRC>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>;
 };
 macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
 label = "macro_parens";
 #binding-cells = <0>;
-bindings = <&kp NUMBER_4>, <&kp NUMBER_5>, <&kp LEFT>;
+bindings = <&kp NUMBER_4>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp NUMBER_5>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+bindings = <&kp LBKT>, <&kp LS(SPACE)>, <&kp LS(SPACE)>, <&kp RBKT>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
