@@ -74,7 +74,7 @@ macro_denis: macro_denis{
 compatible = "zmk,behavior-macro";
 label = "macro_denis";
 #binding-cells = <0>;
-bindings = <&kp I>, <&kp F>, <&kp SEMI>, <&kp D>, <&kp K>, <&kp V>, <&kp H>, <&kp DOT>, <&kp F>, <&kp SEMI>, <&kp F>, <&kp N6>, <&kp R>, <&kp L>, <&kp A>, <&kp SEMI>, <&kp COMMA>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp LC(LA(LS(C)))>;
+bindings = <&kp I>, <&kp F>, <&kp SEMI>, <&kp D>, <&kp K>, <&kp V>, <&kp H>, <&kp DOT>, <&kp F>, <&kp SEMI>, <&kp F>, <&kp N6>, <&kp R>, <&kp L>, <&kp A>, <&kp SEMI>, <&kp COMMA>, <&kp F>, <&kp V>, <&kp H>, <&kp R>, <&kp LC(LA(G))>;
 };
 macro_quotesfr: macro_quotesfr{
 compatible = "zmk,behavior-macro";
@@ -122,7 +122,7 @@ macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp RBKT>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
+bindings = <&kp RG(N4)>, <&kp RG(N5)>, <&kp SPACE>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
